@@ -1,0 +1,163 @@
+/*==================================
+* Author        : "ThemeSine"
+* Template Name : Travel
+* Version       : 1.0
+==================================== */
+
+/*==================================
+
+font-family: 'Poppins', sans-serif;
+
+==================================== */
+
+/*=========== TABLE OF CONTENTS ===========
+
+1.  General css (Reset code)
+2. 	Header
+3. 	About
+5.  Travel-box
+5.  Service
+6.  Gallery
+7.  Discount-offer
+8.  Packages
+9.  Testemonial 
+10. Special Offer
+11. Blog
+12. Subscribe
+13. Footer-copyright
+===========*/
+
+/*-------------------------------------
+		1.General css (Reset code)
+--------------------------------------*/
+*
+
+/*-------------------------------------
+        8. Packages 
+--------------------------------------*/
+
+
+
+body{
+  /* background-color: #f9ea8f;
+background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);*/
+
+background-image: url("services/assets/backgrouds/back1.jpg");
+
+}
+
+    
+
+
+
+.packages{
+    padding:120px 0 90px;
+    margin-top: -150px;
+
+}
+.packages-content{
+    margin-top:65px;
+}
+/*single-package-item */
+.single-package-item{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color:#ffffff59 ;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+}
+.single-package-item-txt{
+    padding: 0 25px;
+}
+.single-package-item img {
+    width: 100%;
+}
+.single-package-item h3{
+    position: relative;
+    font-size: 20px;
+    color: #565a5c;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0;
+    color: white;
+}
+.single-package-item h3:after{
+    position: absolute;
+    content: " ";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    
+}
+.packages-para{
+    padding:17px 0 0;
+    text-transform: capitalize;
+}
+.packages-para p{
+    font-size: 14px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:15px;
+}
+.packages-para p span{
+    display: inline-block;
+    width: 150px;
+}
+.packages-review p i{
+    color: #ffdf00;
+    font-size: 16px;
+}
+.packages-review span{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+
+}
+.about-view.packages-btn{
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+    color: #fff;
+    background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+        Border-radius: 30px;
+        margin-left: 90px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.about-view.packages-btn:hover{
+    box-shadow: 0 5px 20px rgba(14,15,18,.3);
+}
+.single-package-item:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+/*single-package-item */
+
+
+/*========================Thank you=================*/
